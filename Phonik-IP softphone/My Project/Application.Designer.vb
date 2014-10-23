@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Phonik_IP_softphone.Sphone
+            Me.MainForm = Global.Phonik_IP_softphone.Login
         End Sub
     End Class
 End Namespace

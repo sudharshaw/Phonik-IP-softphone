@@ -17,8 +17,8 @@ Partial Class Login
     Friend WithEvents LogoPictureBox As System.Windows.Forms.PictureBox
     Friend WithEvents UsernameLabel As System.Windows.Forms.Label
     Friend WithEvents PasswordLabel As System.Windows.Forms.Label
-    Friend WithEvents UsernameTextBox As System.Windows.Forms.TextBox
-    Friend WithEvents PasswordTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxUsername As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxPassword As System.Windows.Forms.TextBox
     Friend WithEvents OK As System.Windows.Forms.Button
     Friend WithEvents Cancel As System.Windows.Forms.Button
 
@@ -34,8 +34,8 @@ Partial Class Login
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.UsernameLabel = New System.Windows.Forms.Label()
         Me.PasswordLabel = New System.Windows.Forms.Label()
-        Me.UsernameTextBox = New System.Windows.Forms.TextBox()
-        Me.PasswordTextBox = New System.Windows.Forms.TextBox()
+        Me.TextBoxUsername = New System.Windows.Forms.TextBox()
+        Me.TextBoxPassword = New System.Windows.Forms.TextBox()
         Me.OK = New System.Windows.Forms.Button()
         Me.Cancel = New System.Windows.Forms.Button()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,24 +69,24 @@ Partial Class Login
         Me.PasswordLabel.Text = "&Password"
         Me.PasswordLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'UsernameTextBox
+        'TextBoxUsername
         '
-        Me.UsernameTextBox.Location = New System.Drawing.Point(174, 44)
-        Me.UsernameTextBox.Name = "UsernameTextBox"
-        Me.UsernameTextBox.Size = New System.Drawing.Size(200, 20)
-        Me.UsernameTextBox.TabIndex = 1
+        Me.TextBoxUsername.Location = New System.Drawing.Point(174, 44)
+        Me.TextBoxUsername.Name = "TextBoxUsername"
+        Me.TextBoxUsername.Size = New System.Drawing.Size(200, 20)
+        Me.TextBoxUsername.TabIndex = 1
         '
-        'PasswordTextBox
+        'TextBoxPassword
         '
-        Me.PasswordTextBox.Location = New System.Drawing.Point(174, 101)
-        Me.PasswordTextBox.Name = "PasswordTextBox"
-        Me.PasswordTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.PasswordTextBox.Size = New System.Drawing.Size(200, 20)
-        Me.PasswordTextBox.TabIndex = 3
+        Me.TextBoxPassword.Location = New System.Drawing.Point(174, 101)
+        Me.TextBoxPassword.Name = "TextBoxPassword"
+        Me.TextBoxPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TextBoxPassword.Size = New System.Drawing.Size(200, 20)
+        Me.TextBoxPassword.TabIndex = 3
         '
         'OK
         '
-        Me.OK.Location = New System.Drawing.Point(197, 161)
+        Me.OK.Location = New System.Drawing.Point(174, 127)
         Me.OK.Name = "OK"
         Me.OK.Size = New System.Drawing.Size(94, 23)
         Me.OK.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class Login
         'Cancel
         '
         Me.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Cancel.Location = New System.Drawing.Point(300, 161)
+        Me.Cancel.Location = New System.Drawing.Point(280, 127)
         Me.Cancel.Name = "Cancel"
         Me.Cancel.Size = New System.Drawing.Size(94, 23)
         Me.Cancel.TabIndex = 5
@@ -107,11 +107,11 @@ Partial Class Login
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.Cancel
-        Me.ClientSize = New System.Drawing.Size(384, 161)
+        Me.ClientSize = New System.Drawing.Size(401, 215)
         Me.Controls.Add(Me.Cancel)
         Me.Controls.Add(Me.OK)
-        Me.Controls.Add(Me.PasswordTextBox)
-        Me.Controls.Add(Me.UsernameTextBox)
+        Me.Controls.Add(Me.TextBoxPassword)
+        Me.Controls.Add(Me.TextBoxUsername)
         Me.Controls.Add(Me.PasswordLabel)
         Me.Controls.Add(Me.UsernameLabel)
         Me.Controls.Add(Me.LogoPictureBox)

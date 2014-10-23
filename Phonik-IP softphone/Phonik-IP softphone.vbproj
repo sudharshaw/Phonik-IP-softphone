@@ -98,16 +98,52 @@
     <Compile Include="Contacts.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CallHistory.Designer.vb">
+      <DependentUpon>CallHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CallHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDashboard.Designer.vb">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormDialpad.Designer.vb">
       <DependentUpon>FormDialpad.vb</DependentUpon>
     </Compile>
     <Compile Include="FormDialpad.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormSpy.Designer.vb">
+      <DependentUpon>FormSpy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSpy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSpyProgress.Designer.vb">
+      <DependentUpon>FormSpyProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSpyProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="NewContact.Designer.vb">
       <DependentUpon>NewContact.vb</DependentUpon>
     </Compile>
     <Compile Include="NewContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSchdule.Designer.vb">
+      <DependentUpon>NewSchdule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewSchdule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule.Designer.vb">
+      <DependentUpon>Schedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sphone.vb">
@@ -161,11 +197,29 @@
     <EmbeddedResource Include="Contacts.resx">
       <DependentUpon>Contacts.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CallHistory.resx">
+      <DependentUpon>CallHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDashboard.resx">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDialpad.resx">
       <DependentUpon>FormDialpad.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSpy.resx">
+      <DependentUpon>FormSpy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSpyProgress.resx">
+      <DependentUpon>FormSpyProgress.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewContact.resx">
       <DependentUpon>NewContact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSchdule.resx">
+      <DependentUpon>NewSchdule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule.resx">
+      <DependentUpon>Schedule.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sphone.resx">
       <DependentUpon>Sphone.vb</DependentUpon>
@@ -203,6 +257,17 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VAXSIPUSERAGENTCOMLib">
+      <Guid>{B63B0AE6-3427-4552-974E-A4CBA0C60883}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

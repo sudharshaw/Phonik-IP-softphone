@@ -23,64 +23,90 @@ Partial Class FormNewcontact
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBoxNewcontact = New System.Windows.Forms.GroupBox()
-        Me.ButtonNewcontactclose = New System.Windows.Forms.Button()
+        Me.ButtonContactClose = New System.Windows.Forms.Button()
         Me.TextBoxNewcontactCID = New System.Windows.Forms.TextBox()
-        Me.ButtonNewcontactnext = New System.Windows.Forms.Button()
+        Me.ButtonContactNext = New System.Windows.Forms.Button()
         Me.LabelNewcontactCID = New System.Windows.Forms.Label()
-        Me.ButtonNewcontactSave = New System.Windows.Forms.Button()
-        Me.TextBoxNewcontactemail = New System.Windows.Forms.TextBox()
+        Me.ButtonContactSave = New System.Windows.Forms.Button()
+        Me.TextBoxContactEmail1 = New System.Windows.Forms.TextBox()
         Me.LabelNewcontactemail = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontacttelno = New System.Windows.Forms.TextBox()
+        Me.TextBoxContactNo = New System.Windows.Forms.TextBox()
         Me.LabelNewcontactNumber = New System.Windows.Forms.Label()
-        Me.ComboBoxNewcontactNumber = New System.Windows.Forms.ComboBox()
-        Me.TextBoxNewcontactLastname = New System.Windows.Forms.TextBox()
+        Me.ComboBoxContactNumber = New System.Windows.Forms.ComboBox()
+        Me.TextBoxLastname = New System.Windows.Forms.TextBox()
         Me.LabelNewcontactLastname = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactFirstname = New System.Windows.Forms.TextBox()
+        Me.TextBoxFirstname = New System.Windows.Forms.TextBox()
         Me.LabelNewContactFirstname = New System.Windows.Forms.Label()
         Me.LabelNewcontactTitle = New System.Windows.Forms.Label()
-        Me.ComboBoxNewcontactTitle = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxTitle = New System.Windows.Forms.ComboBox()
         Me.GroupBoxNewcontctbuttons = New System.Windows.Forms.GroupBox()
+        Me.PictureBoxNewcontact = New System.Windows.Forms.PictureBox()
         Me.LabelNewcontactcopywrite = New System.Windows.Forms.Label()
         Me.OpenFileDialogNewcontactOther = New System.Windows.Forms.OpenFileDialog()
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
-        Me.PictureBoxNewcontact = New System.Windows.Forms.PictureBox()
         Me.TabPageNewcontactother = New System.Windows.Forms.TabPage()
         Me.GroupBoxNewcontactother = New System.Windows.Forms.GroupBox()
-        Me.LabelNewcontactbirthday = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactbirthday = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactnational = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactnational = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactsex = New System.Windows.Forms.Label()
-        Me.ComboBoxNewcontactsex = New System.Windows.Forms.ComboBox()
-        Me.LabelNewcontactms = New System.Windows.Forms.Label()
-        Me.ComboBoxNewcontactms = New System.Windows.Forms.ComboBox()
-        Me.LabelNewcontactnic = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactnic = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactdl = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactdl = New System.Windows.Forms.TextBox()
-        Me.TextBoxNewcontactbg = New System.Windows.Forms.TextBox()
         Me.LabelNewcontactbg = New System.Windows.Forms.Label()
-        Me.TabPageNewcontactinfo = New System.Windows.Forms.TabPage()
+        Me.TextBoxContactBloodGroup = New System.Windows.Forms.TextBox()
+        Me.TextBoxContactDlno = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactdl = New System.Windows.Forms.Label()
+        Me.TextBoxContactNic = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactnic = New System.Windows.Forms.Label()
+        Me.ComboBoxContactMaritialStatus = New System.Windows.Forms.ComboBox()
+        Me.LabelNewcontactms = New System.Windows.Forms.Label()
+        Me.ComboBoxGender = New System.Windows.Forms.ComboBox()
+        Me.LabelNewcontactsex = New System.Windows.Forms.Label()
+        Me.TextBoxContactNationality = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactnational = New System.Windows.Forms.Label()
+        Me.LabelNewcontactbirthday = New System.Windows.Forms.Label()
+        Me.TabPageWorkInfo = New System.Windows.Forms.TabPage()
         Me.GroupBoxNewcontactinfo = New System.Windows.Forms.GroupBox()
-        Me.LabelNewcontactemailoffice = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactemail2 = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactcompany = New System.Windows.Forms.Label()
-        Me.LabelLabelNewcontactcompanyadd = New System.Windows.Forms.Label()
-        Me.RichTextBoxNewcontactadd = New System.Windows.Forms.RichTextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactteloffice = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactfax = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactfax = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactdesig = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactdes = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactdepart = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactdepart = New System.Windows.Forms.TextBox()
-        Me.LabelNewcontactweb = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactweb = New System.Windows.Forms.TextBox()
+        Me.TextBoxSkype = New System.Windows.Forms.TextBox()
         Me.LabelNewcontactskype = New System.Windows.Forms.Label()
-        Me.TextBoxNewcontactskype = New System.Windows.Forms.TextBox()
+        Me.TextBoxCompanyWeb = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactweb = New System.Windows.Forms.Label()
+        Me.TextBoxContactDepart = New System.Windows.Forms.TextBox()
+        Me.LabelContactDepart = New System.Windows.Forms.Label()
+        Me.TextBoxContactDesig = New System.Windows.Forms.TextBox()
+        Me.LabelContactDesig = New System.Windows.Forms.Label()
+        Me.TextBoxWorkFax = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactfax = New System.Windows.Forms.Label()
+        Me.TextBoxWorkTel1 = New System.Windows.Forms.TextBox()
+        Me.LabelWorkTel1 = New System.Windows.Forms.Label()
+        Me.TextBoxCompanyEmail = New System.Windows.Forms.TextBox()
+        Me.RichTextBoxCompanyAddr = New System.Windows.Forms.RichTextBox()
+        Me.LabelLabelNewcontactcompanyadd = New System.Windows.Forms.Label()
+        Me.LabelNewcontactcompany = New System.Windows.Forms.Label()
+        Me.TextBoxCompany = New System.Windows.Forms.TextBox()
+        Me.LabelNewcontactemailoffice = New System.Windows.Forms.Label()
         Me.TabControlNewcontact = New System.Windows.Forms.TabControl()
+        Me.TabPageNewcontactaddr = New System.Windows.Forms.TabPage()
+        Me.GroupBoxNewcontactAddress1 = New System.Windows.Forms.GroupBox()
+        Me.ComboBoxAddrCoun = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxAddrPro = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxAddrDist = New System.Windows.Forms.ComboBox()
+        Me.TextBoxAddrCity = New System.Windows.Forms.TextBox()
+        Me.TextBoxAddrStreet = New System.Windows.Forms.TextBox()
+        Me.TextBoxAddrNo = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.GroupBoxNewcontactAddress2 = New System.Windows.Forms.GroupBox()
+        Me.ComboBoxShipAddrCoun = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.ComboBoxShipAddrDst = New System.Windows.Forms.ComboBox()
+        Me.ComboBoxShipAddrPro = New System.Windows.Forms.ComboBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBoxShipAddrCity = New System.Windows.Forms.TextBox()
+        Me.TextBoxShipAddrNo = New System.Windows.Forms.TextBox()
+        Me.TextBoxShipAddrStreet = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.LabelNewcontactAddr2pro = New System.Windows.Forms.Label()
         Me.LabelNewcontactAddr2city = New System.Windows.Forms.Label()
         Me.LabelNewcontactAddr2street = New System.Windows.Forms.Label()
@@ -105,7 +131,6 @@ Partial Class FormNewcontact
         Me.ComboBoxNewcontactAddr1dist = New System.Windows.Forms.ComboBox()
         Me.ComboBoxNewcontactAddr1pro = New System.Windows.Forms.ComboBox()
         Me.ComboBoxNewcontactAddr1coun = New System.Windows.Forms.ComboBox()
-        Me.TabPageNewcontactaddr = New System.Windows.Forms.TabPage()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.status = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CLI = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -115,79 +140,65 @@ Partial Class FormNewcontact
         Me.RichTextBoxNewcontactNote = New System.Windows.Forms.RichTextBox()
         Me.ComboBoxNewcontactNote = New System.Windows.Forms.ComboBox()
         Me.LabelNewcontactNote = New System.Windows.Forms.Label()
-        Me.GroupBoxNewcontactAddress1 = New System.Windows.Forms.GroupBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.GroupBoxNewcontactAddress2 = New System.Windows.Forms.GroupBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.TabPageContactInfo = New System.Windows.Forms.TabPage()
+        Me.LabelEmail2 = New System.Windows.Forms.Label()
+        Me.TextBoxContactEmail2 = New System.Windows.Forms.TextBox()
+        Me.LabelMobile2 = New System.Windows.Forms.Label()
+        Me.TextBoxContactMobile2 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBoxContactResPhone = New System.Windows.Forms.TextBox()
+        Me.LabelGtalk = New System.Windows.Forms.Label()
+        Me.TextBoxGtalk = New System.Windows.Forms.TextBox()
+        Me.LabelContactType = New System.Windows.Forms.Label()
+        Me.ComboBoxContactType = New System.Windows.Forms.ComboBox()
+        Me.TextBoxContactBirthday = New System.Windows.Forms.TextBox()
         Me.GroupBoxNewcontact.SuspendLayout()
         Me.GroupBoxNewcontctbuttons.SuspendLayout()
         CType(Me.PictureBoxNewcontact, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPageNewcontactother.SuspendLayout()
         Me.GroupBoxNewcontactother.SuspendLayout()
-        Me.TabPageNewcontactinfo.SuspendLayout()
+        Me.TabPageWorkInfo.SuspendLayout()
         Me.GroupBoxNewcontactinfo.SuspendLayout()
         Me.TabControlNewcontact.SuspendLayout()
         Me.TabPageNewcontactaddr.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBoxNewcontactAddress1.SuspendLayout()
         Me.GroupBoxNewcontactAddress2.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPageContactInfo.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBoxNewcontact
         '
-        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonNewcontactclose)
+        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonContactClose)
         Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxNewcontactCID)
-        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonNewcontactnext)
+        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonContactNext)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewcontactCID)
-        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonNewcontactSave)
-        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxNewcontactemail)
+        Me.GroupBoxNewcontact.Controls.Add(Me.ButtonContactSave)
+        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxContactEmail1)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewcontactemail)
-        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxNewcontacttelno)
+        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxContactNo)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewcontactNumber)
-        Me.GroupBoxNewcontact.Controls.Add(Me.ComboBoxNewcontactNumber)
-        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxNewcontactLastname)
+        Me.GroupBoxNewcontact.Controls.Add(Me.ComboBoxContactNumber)
+        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxLastname)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewcontactLastname)
-        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxNewcontactFirstname)
+        Me.GroupBoxNewcontact.Controls.Add(Me.TextBoxFirstname)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewContactFirstname)
         Me.GroupBoxNewcontact.Controls.Add(Me.LabelNewcontactTitle)
-        Me.GroupBoxNewcontact.Controls.Add(Me.ComboBoxNewcontactTitle)
+        Me.GroupBoxNewcontact.Controls.Add(Me.ComboBoxTitle)
         Me.GroupBoxNewcontact.Location = New System.Drawing.Point(8, 12)
         Me.GroupBoxNewcontact.Name = "GroupBoxNewcontact"
         Me.GroupBoxNewcontact.Size = New System.Drawing.Size(768, 73)
         Me.GroupBoxNewcontact.TabIndex = 1
         Me.GroupBoxNewcontact.TabStop = False
         '
-        'ButtonNewcontactclose
+        'ButtonContactClose
         '
-        Me.ButtonNewcontactclose.Location = New System.Drawing.Point(688, 40)
-        Me.ButtonNewcontactclose.Name = "ButtonNewcontactclose"
-        Me.ButtonNewcontactclose.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNewcontactclose.TabIndex = 2
-        Me.ButtonNewcontactclose.Text = "&Close"
-        Me.ButtonNewcontactclose.UseVisualStyleBackColor = True
+        Me.ButtonContactClose.Location = New System.Drawing.Point(688, 40)
+        Me.ButtonContactClose.Name = "ButtonContactClose"
+        Me.ButtonContactClose.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactClose.TabIndex = 2
+        Me.ButtonContactClose.Text = "&Cancel"
+        Me.ButtonContactClose.UseVisualStyleBackColor = True
         '
         'TextBoxNewcontactCID
         '
@@ -196,14 +207,14 @@ Partial Class FormNewcontact
         Me.TextBoxNewcontactCID.Size = New System.Drawing.Size(150, 20)
         Me.TextBoxNewcontactCID.TabIndex = 12
         '
-        'ButtonNewcontactnext
+        'ButtonContactNext
         '
-        Me.ButtonNewcontactnext.Location = New System.Drawing.Point(600, 40)
-        Me.ButtonNewcontactnext.Name = "ButtonNewcontactnext"
-        Me.ButtonNewcontactnext.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNewcontactnext.TabIndex = 1
-        Me.ButtonNewcontactnext.Text = "&Next"
-        Me.ButtonNewcontactnext.UseVisualStyleBackColor = True
+        Me.ButtonContactNext.Location = New System.Drawing.Point(600, 40)
+        Me.ButtonContactNext.Name = "ButtonContactNext"
+        Me.ButtonContactNext.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactNext.TabIndex = 1
+        Me.ButtonContactNext.Text = "&Next"
+        Me.ButtonContactNext.UseVisualStyleBackColor = True
         '
         'LabelNewcontactCID
         '
@@ -214,21 +225,21 @@ Partial Class FormNewcontact
         Me.LabelNewcontactCID.TabIndex = 11
         Me.LabelNewcontactCID.Text = "CID"
         '
-        'ButtonNewcontactSave
+        'ButtonContactSave
         '
-        Me.ButtonNewcontactSave.Location = New System.Drawing.Point(511, 40)
-        Me.ButtonNewcontactSave.Name = "ButtonNewcontactSave"
-        Me.ButtonNewcontactSave.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonNewcontactSave.TabIndex = 0
-        Me.ButtonNewcontactSave.Text = "&Save"
-        Me.ButtonNewcontactSave.UseVisualStyleBackColor = True
+        Me.ButtonContactSave.Location = New System.Drawing.Point(511, 40)
+        Me.ButtonContactSave.Name = "ButtonContactSave"
+        Me.ButtonContactSave.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactSave.TabIndex = 0
+        Me.ButtonContactSave.Text = "&Save"
+        Me.ButtonContactSave.UseVisualStyleBackColor = True
         '
-        'TextBoxNewcontactemail
+        'TextBoxContactEmail1
         '
-        Me.TextBoxNewcontactemail.Location = New System.Drawing.Point(41, 40)
-        Me.TextBoxNewcontactemail.Name = "TextBoxNewcontactemail"
-        Me.TextBoxNewcontactemail.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactemail.TabIndex = 10
+        Me.TextBoxContactEmail1.Location = New System.Drawing.Point(41, 40)
+        Me.TextBoxContactEmail1.Name = "TextBoxContactEmail1"
+        Me.TextBoxContactEmail1.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxContactEmail1.TabIndex = 10
         '
         'LabelNewcontactemail
         '
@@ -239,12 +250,12 @@ Partial Class FormNewcontact
         Me.LabelNewcontactemail.TabIndex = 9
         Me.LabelNewcontactemail.Text = "E-mail"
         '
-        'TextBoxNewcontacttelno
+        'TextBoxContactNo
         '
-        Me.TextBoxNewcontacttelno.Location = New System.Drawing.Point(657, 12)
-        Me.TextBoxNewcontacttelno.Name = "TextBoxNewcontacttelno"
-        Me.TextBoxNewcontacttelno.Size = New System.Drawing.Size(105, 20)
-        Me.TextBoxNewcontacttelno.TabIndex = 8
+        Me.TextBoxContactNo.Location = New System.Drawing.Point(657, 12)
+        Me.TextBoxContactNo.Name = "TextBoxContactNo"
+        Me.TextBoxContactNo.Size = New System.Drawing.Size(105, 20)
+        Me.TextBoxContactNo.TabIndex = 8
         '
         'LabelNewcontactNumber
         '
@@ -255,21 +266,21 @@ Partial Class FormNewcontact
         Me.LabelNewcontactNumber.TabIndex = 7
         Me.LabelNewcontactNumber.Text = "Contact Number"
         '
-        'ComboBoxNewcontactNumber
+        'ComboBoxContactNumber
         '
-        Me.ComboBoxNewcontactNumber.FormattingEnabled = True
-        Me.ComboBoxNewcontactNumber.Items.AddRange(New Object() {"Mobile", "Home", "Work"})
-        Me.ComboBoxNewcontactNumber.Location = New System.Drawing.Point(594, 11)
-        Me.ComboBoxNewcontactNumber.Name = "ComboBoxNewcontactNumber"
-        Me.ComboBoxNewcontactNumber.Size = New System.Drawing.Size(58, 21)
-        Me.ComboBoxNewcontactNumber.TabIndex = 6
+        Me.ComboBoxContactNumber.FormattingEnabled = True
+        Me.ComboBoxContactNumber.Items.AddRange(New Object() {"Mobile", "Home", "Work"})
+        Me.ComboBoxContactNumber.Location = New System.Drawing.Point(594, 11)
+        Me.ComboBoxContactNumber.Name = "ComboBoxContactNumber"
+        Me.ComboBoxContactNumber.Size = New System.Drawing.Size(58, 21)
+        Me.ComboBoxContactNumber.TabIndex = 6
         '
-        'TextBoxNewcontactLastname
+        'TextBoxLastname
         '
-        Me.TextBoxNewcontactLastname.Location = New System.Drawing.Point(352, 12)
-        Me.TextBoxNewcontactLastname.Name = "TextBoxNewcontactLastname"
-        Me.TextBoxNewcontactLastname.Size = New System.Drawing.Size(150, 20)
-        Me.TextBoxNewcontactLastname.TabIndex = 5
+        Me.TextBoxLastname.Location = New System.Drawing.Point(352, 12)
+        Me.TextBoxLastname.Name = "TextBoxLastname"
+        Me.TextBoxLastname.Size = New System.Drawing.Size(150, 20)
+        Me.TextBoxLastname.TabIndex = 5
         '
         'LabelNewcontactLastname
         '
@@ -280,12 +291,12 @@ Partial Class FormNewcontact
         Me.LabelNewcontactLastname.TabIndex = 4
         Me.LabelNewcontactLastname.Text = "Last Name"
         '
-        'TextBoxNewcontactFirstname
+        'TextBoxFirstname
         '
-        Me.TextBoxNewcontactFirstname.Location = New System.Drawing.Point(137, 11)
-        Me.TextBoxNewcontactFirstname.Name = "TextBoxNewcontactFirstname"
-        Me.TextBoxNewcontactFirstname.Size = New System.Drawing.Size(150, 20)
-        Me.TextBoxNewcontactFirstname.TabIndex = 3
+        Me.TextBoxFirstname.Location = New System.Drawing.Point(137, 11)
+        Me.TextBoxFirstname.Name = "TextBoxFirstname"
+        Me.TextBoxFirstname.Size = New System.Drawing.Size(150, 20)
+        Me.TextBoxFirstname.TabIndex = 3
         '
         'LabelNewContactFirstname
         '
@@ -305,14 +316,14 @@ Partial Class FormNewcontact
         Me.LabelNewcontactTitle.TabIndex = 1
         Me.LabelNewcontactTitle.Text = "Title"
         '
-        'ComboBoxNewcontactTitle
+        'ComboBoxTitle
         '
-        Me.ComboBoxNewcontactTitle.FormattingEnabled = True
-        Me.ComboBoxNewcontactTitle.Items.AddRange(New Object() {"Mr", "Ms", "Mrs", "Dr", "Prof", "Rev", "Ven", "Hon"})
-        Me.ComboBoxNewcontactTitle.Location = New System.Drawing.Point(42, 10)
-        Me.ComboBoxNewcontactTitle.Name = "ComboBoxNewcontactTitle"
-        Me.ComboBoxNewcontactTitle.Size = New System.Drawing.Size(41, 21)
-        Me.ComboBoxNewcontactTitle.TabIndex = 0
+        Me.ComboBoxTitle.FormattingEnabled = True
+        Me.ComboBoxTitle.Items.AddRange(New Object() {"Mr", "Ms", "Mrs", "Dr", "Prof", "Rev", "Ven", "Hon"})
+        Me.ComboBoxTitle.Location = New System.Drawing.Point(42, 10)
+        Me.ComboBoxTitle.Name = "ComboBoxTitle"
+        Me.ComboBoxTitle.Size = New System.Drawing.Size(41, 21)
+        Me.ComboBoxTitle.TabIndex = 0
         '
         'GroupBoxNewcontctbuttons
         '
@@ -323,6 +334,15 @@ Partial Class FormNewcontact
         Me.GroupBoxNewcontctbuttons.Size = New System.Drawing.Size(767, 42)
         Me.GroupBoxNewcontctbuttons.TabIndex = 2
         Me.GroupBoxNewcontctbuttons.TabStop = False
+        '
+        'PictureBoxNewcontact
+        '
+        Me.PictureBoxNewcontact.Image = Global.Phonik_IP_softphone.My.Resources.Resources.Contact_Page_Logo
+        Me.PictureBoxNewcontact.Location = New System.Drawing.Point(663, 10)
+        Me.PictureBoxNewcontact.Name = "PictureBoxNewcontact"
+        Me.PictureBoxNewcontact.Size = New System.Drawing.Size(100, 27)
+        Me.PictureBoxNewcontact.TabIndex = 1
+        Me.PictureBoxNewcontact.TabStop = False
         '
         'LabelNewcontactcopywrite
         '
@@ -338,15 +358,6 @@ Partial Class FormNewcontact
         '
         Me.OpenFileDialog2.FileName = "OpenFileDialog2"
         '
-        'PictureBoxNewcontact
-        '
-        Me.PictureBoxNewcontact.Image = Global.Phonik_IP_softphone.My.Resources.Resources.Contact_Page_Logo
-        Me.PictureBoxNewcontact.Location = New System.Drawing.Point(663, 10)
-        Me.PictureBoxNewcontact.Name = "PictureBoxNewcontact"
-        Me.PictureBoxNewcontact.Size = New System.Drawing.Size(100, 27)
-        Me.PictureBoxNewcontact.TabIndex = 1
-        Me.PictureBoxNewcontact.TabStop = False
-        '
         'TabPageNewcontactother
         '
         Me.TabPageNewcontactother.Controls.Add(Me.GroupBoxNewcontactother)
@@ -360,19 +371,21 @@ Partial Class FormNewcontact
         '
         'GroupBoxNewcontactother
         '
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxContactBirthday)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxGtalk)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.LabelGtalk)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactbg)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxNewcontactbg)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxNewcontactdl)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxContactBloodGroup)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxContactDlno)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactdl)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxNewcontactnic)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxContactNic)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactnic)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.ComboBoxNewcontactms)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.ComboBoxContactMaritialStatus)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactms)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.ComboBoxNewcontactsex)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.ComboBoxGender)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactsex)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxNewcontactnational)
+        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxContactNationality)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactnational)
-        Me.GroupBoxNewcontactother.Controls.Add(Me.TextBoxNewcontactbirthday)
         Me.GroupBoxNewcontactother.Controls.Add(Me.LabelNewcontactbirthday)
         Me.GroupBoxNewcontactother.Location = New System.Drawing.Point(6, 3)
         Me.GroupBoxNewcontactother.Name = "GroupBoxNewcontactother"
@@ -380,90 +393,28 @@ Partial Class FormNewcontact
         Me.GroupBoxNewcontactother.TabIndex = 0
         Me.GroupBoxNewcontactother.TabStop = False
         '
-        'LabelNewcontactbirthday
+        'LabelNewcontactbg
         '
-        Me.LabelNewcontactbirthday.AutoSize = True
-        Me.LabelNewcontactbirthday.Location = New System.Drawing.Point(16, 28)
-        Me.LabelNewcontactbirthday.Name = "LabelNewcontactbirthday"
-        Me.LabelNewcontactbirthday.Size = New System.Drawing.Size(54, 13)
-        Me.LabelNewcontactbirthday.TabIndex = 0
-        Me.LabelNewcontactbirthday.Text = "Birthday : "
+        Me.LabelNewcontactbg.AutoSize = True
+        Me.LabelNewcontactbg.Location = New System.Drawing.Point(199, 58)
+        Me.LabelNewcontactbg.Name = "LabelNewcontactbg"
+        Me.LabelNewcontactbg.Size = New System.Drawing.Size(75, 13)
+        Me.LabelNewcontactbg.TabIndex = 13
+        Me.LabelNewcontactbg.Text = "Blood Group : "
         '
-        'TextBoxNewcontactbirthday
+        'TextBoxContactBloodGroup
         '
-        Me.TextBoxNewcontactbirthday.Location = New System.Drawing.Point(77, 25)
-        Me.TextBoxNewcontactbirthday.Name = "TextBoxNewcontactbirthday"
-        Me.TextBoxNewcontactbirthday.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxNewcontactbirthday.TabIndex = 1
-        Me.TextBoxNewcontactbirthday.Text = "DD/MM/YYYY"
+        Me.TextBoxContactBloodGroup.Location = New System.Drawing.Point(278, 54)
+        Me.TextBoxContactBloodGroup.Name = "TextBoxContactBloodGroup"
+        Me.TextBoxContactBloodGroup.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxContactBloodGroup.TabIndex = 12
         '
-        'LabelNewcontactnational
+        'TextBoxContactDlno
         '
-        Me.LabelNewcontactnational.AutoSize = True
-        Me.LabelNewcontactnational.Location = New System.Drawing.Point(6, 58)
-        Me.LabelNewcontactnational.Name = "LabelNewcontactnational"
-        Me.LabelNewcontactnational.Size = New System.Drawing.Size(65, 13)
-        Me.LabelNewcontactnational.TabIndex = 2
-        Me.LabelNewcontactnational.Text = "Nationality : "
-        '
-        'TextBoxNewcontactnational
-        '
-        Me.TextBoxNewcontactnational.Location = New System.Drawing.Point(77, 54)
-        Me.TextBoxNewcontactnational.Name = "TextBoxNewcontactnational"
-        Me.TextBoxNewcontactnational.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxNewcontactnational.TabIndex = 3
-        '
-        'LabelNewcontactsex
-        '
-        Me.LabelNewcontactsex.AutoSize = True
-        Me.LabelNewcontactsex.Location = New System.Drawing.Point(37, 85)
-        Me.LabelNewcontactsex.Name = "LabelNewcontactsex"
-        Me.LabelNewcontactsex.Size = New System.Drawing.Size(34, 13)
-        Me.LabelNewcontactsex.TabIndex = 4
-        Me.LabelNewcontactsex.Text = "Sex : "
-        '
-        'ComboBoxNewcontactsex
-        '
-        Me.ComboBoxNewcontactsex.FormattingEnabled = True
-        Me.ComboBoxNewcontactsex.Items.AddRange(New Object() {"Male", "Female"})
-        Me.ComboBoxNewcontactsex.Location = New System.Drawing.Point(76, 83)
-        Me.ComboBoxNewcontactsex.Name = "ComboBoxNewcontactsex"
-        Me.ComboBoxNewcontactsex.Size = New System.Drawing.Size(101, 21)
-        Me.ComboBoxNewcontactsex.TabIndex = 5
-        '
-        'LabelNewcontactms
-        '
-        Me.LabelNewcontactms.AutoSize = True
-        Me.LabelNewcontactms.Location = New System.Drawing.Point(192, 29)
-        Me.LabelNewcontactms.Name = "LabelNewcontactms"
-        Me.LabelNewcontactms.Size = New System.Drawing.Size(82, 13)
-        Me.LabelNewcontactms.TabIndex = 6
-        Me.LabelNewcontactms.Text = "Maritial Status : "
-        '
-        'ComboBoxNewcontactms
-        '
-        Me.ComboBoxNewcontactms.FormattingEnabled = True
-        Me.ComboBoxNewcontactms.Items.AddRange(New Object() {"Married", "Single", "Divorced", "Widowed"})
-        Me.ComboBoxNewcontactms.Location = New System.Drawing.Point(277, 24)
-        Me.ComboBoxNewcontactms.Name = "ComboBoxNewcontactms"
-        Me.ComboBoxNewcontactms.Size = New System.Drawing.Size(101, 21)
-        Me.ComboBoxNewcontactms.TabIndex = 7
-        '
-        'LabelNewcontactnic
-        '
-        Me.LabelNewcontactnic.AutoSize = True
-        Me.LabelNewcontactnic.Location = New System.Drawing.Point(35, 117)
-        Me.LabelNewcontactnic.Name = "LabelNewcontactnic"
-        Me.LabelNewcontactnic.Size = New System.Drawing.Size(34, 13)
-        Me.LabelNewcontactnic.TabIndex = 8
-        Me.LabelNewcontactnic.Text = "NIC : "
-        '
-        'TextBoxNewcontactnic
-        '
-        Me.TextBoxNewcontactnic.Location = New System.Drawing.Point(76, 112)
-        Me.TextBoxNewcontactnic.Name = "TextBoxNewcontactnic"
-        Me.TextBoxNewcontactnic.Size = New System.Drawing.Size(101, 20)
-        Me.TextBoxNewcontactnic.TabIndex = 9
+        Me.TextBoxContactDlno.Location = New System.Drawing.Point(76, 141)
+        Me.TextBoxContactDlno.Name = "TextBoxContactDlno"
+        Me.TextBoxContactDlno.Size = New System.Drawing.Size(103, 20)
+        Me.TextBoxContactDlno.TabIndex = 11
         '
         'LabelNewcontactdl
         '
@@ -474,59 +425,113 @@ Partial Class FormNewcontact
         Me.LabelNewcontactdl.TabIndex = 10
         Me.LabelNewcontactdl.Text = "DL No : "
         '
-        'TextBoxNewcontactdl
+        'TextBoxContactNic
         '
-        Me.TextBoxNewcontactdl.Location = New System.Drawing.Point(76, 141)
-        Me.TextBoxNewcontactdl.Name = "TextBoxNewcontactdl"
-        Me.TextBoxNewcontactdl.Size = New System.Drawing.Size(103, 20)
-        Me.TextBoxNewcontactdl.TabIndex = 11
+        Me.TextBoxContactNic.Location = New System.Drawing.Point(76, 112)
+        Me.TextBoxContactNic.Name = "TextBoxContactNic"
+        Me.TextBoxContactNic.Size = New System.Drawing.Size(101, 20)
+        Me.TextBoxContactNic.TabIndex = 9
         '
-        'TextBoxNewcontactbg
+        'LabelNewcontactnic
         '
-        Me.TextBoxNewcontactbg.Location = New System.Drawing.Point(278, 54)
-        Me.TextBoxNewcontactbg.Name = "TextBoxNewcontactbg"
-        Me.TextBoxNewcontactbg.Size = New System.Drawing.Size(100, 20)
-        Me.TextBoxNewcontactbg.TabIndex = 12
+        Me.LabelNewcontactnic.AutoSize = True
+        Me.LabelNewcontactnic.Location = New System.Drawing.Point(35, 117)
+        Me.LabelNewcontactnic.Name = "LabelNewcontactnic"
+        Me.LabelNewcontactnic.Size = New System.Drawing.Size(34, 13)
+        Me.LabelNewcontactnic.TabIndex = 8
+        Me.LabelNewcontactnic.Text = "NIC : "
         '
-        'LabelNewcontactbg
+        'ComboBoxContactMaritialStatus
         '
-        Me.LabelNewcontactbg.AutoSize = True
-        Me.LabelNewcontactbg.Location = New System.Drawing.Point(198, 58)
-        Me.LabelNewcontactbg.Name = "LabelNewcontactbg"
-        Me.LabelNewcontactbg.Size = New System.Drawing.Size(75, 13)
-        Me.LabelNewcontactbg.TabIndex = 13
-        Me.LabelNewcontactbg.Text = "Blood Group : "
+        Me.ComboBoxContactMaritialStatus.FormattingEnabled = True
+        Me.ComboBoxContactMaritialStatus.Items.AddRange(New Object() {"Married", "Single", "Divorced", "Widowed"})
+        Me.ComboBoxContactMaritialStatus.Location = New System.Drawing.Point(277, 24)
+        Me.ComboBoxContactMaritialStatus.Name = "ComboBoxContactMaritialStatus"
+        Me.ComboBoxContactMaritialStatus.Size = New System.Drawing.Size(101, 21)
+        Me.ComboBoxContactMaritialStatus.TabIndex = 7
         '
-        'TabPageNewcontactinfo
+        'LabelNewcontactms
         '
-        Me.TabPageNewcontactinfo.Controls.Add(Me.GroupBoxNewcontactinfo)
-        Me.TabPageNewcontactinfo.Location = New System.Drawing.Point(4, 22)
-        Me.TabPageNewcontactinfo.Name = "TabPageNewcontactinfo"
-        Me.TabPageNewcontactinfo.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPageNewcontactinfo.Size = New System.Drawing.Size(763, 186)
-        Me.TabPageNewcontactinfo.TabIndex = 1
-        Me.TabPageNewcontactinfo.Text = "Contact info"
-        Me.TabPageNewcontactinfo.UseVisualStyleBackColor = True
+        Me.LabelNewcontactms.AutoSize = True
+        Me.LabelNewcontactms.Location = New System.Drawing.Point(192, 29)
+        Me.LabelNewcontactms.Name = "LabelNewcontactms"
+        Me.LabelNewcontactms.Size = New System.Drawing.Size(82, 13)
+        Me.LabelNewcontactms.TabIndex = 6
+        Me.LabelNewcontactms.Text = "Maritial Status : "
+        '
+        'ComboBoxGender
+        '
+        Me.ComboBoxGender.FormattingEnabled = True
+        Me.ComboBoxGender.Items.AddRange(New Object() {"Male", "Female"})
+        Me.ComboBoxGender.Location = New System.Drawing.Point(76, 83)
+        Me.ComboBoxGender.Name = "ComboBoxGender"
+        Me.ComboBoxGender.Size = New System.Drawing.Size(101, 21)
+        Me.ComboBoxGender.TabIndex = 5
+        '
+        'LabelNewcontactsex
+        '
+        Me.LabelNewcontactsex.AutoSize = True
+        Me.LabelNewcontactsex.Location = New System.Drawing.Point(37, 85)
+        Me.LabelNewcontactsex.Name = "LabelNewcontactsex"
+        Me.LabelNewcontactsex.Size = New System.Drawing.Size(34, 13)
+        Me.LabelNewcontactsex.TabIndex = 4
+        Me.LabelNewcontactsex.Text = "Sex : "
+        '
+        'TextBoxContactNationality
+        '
+        Me.TextBoxContactNationality.Location = New System.Drawing.Point(77, 54)
+        Me.TextBoxContactNationality.Name = "TextBoxContactNationality"
+        Me.TextBoxContactNationality.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxContactNationality.TabIndex = 3
+        '
+        'LabelNewcontactnational
+        '
+        Me.LabelNewcontactnational.AutoSize = True
+        Me.LabelNewcontactnational.Location = New System.Drawing.Point(6, 58)
+        Me.LabelNewcontactnational.Name = "LabelNewcontactnational"
+        Me.LabelNewcontactnational.Size = New System.Drawing.Size(65, 13)
+        Me.LabelNewcontactnational.TabIndex = 2
+        Me.LabelNewcontactnational.Text = "Nationality : "
+        '
+        'LabelNewcontactbirthday
+        '
+        Me.LabelNewcontactbirthday.AutoSize = True
+        Me.LabelNewcontactbirthday.Location = New System.Drawing.Point(16, 28)
+        Me.LabelNewcontactbirthday.Name = "LabelNewcontactbirthday"
+        Me.LabelNewcontactbirthday.Size = New System.Drawing.Size(54, 13)
+        Me.LabelNewcontactbirthday.TabIndex = 0
+        Me.LabelNewcontactbirthday.Text = "Birthday : "
+        '
+        'TabPageWorkInfo
+        '
+        Me.TabPageWorkInfo.Controls.Add(Me.GroupBoxNewcontactinfo)
+        Me.TabPageWorkInfo.Location = New System.Drawing.Point(4, 22)
+        Me.TabPageWorkInfo.Name = "TabPageWorkInfo"
+        Me.TabPageWorkInfo.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageWorkInfo.Size = New System.Drawing.Size(763, 186)
+        Me.TabPageWorkInfo.TabIndex = 1
+        Me.TabPageWorkInfo.Text = "Work Info"
+        Me.TabPageWorkInfo.UseVisualStyleBackColor = True
         '
         'GroupBoxNewcontactinfo
         '
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactskype)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxSkype)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactskype)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactweb)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxCompanyWeb)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactweb)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactdepart)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactdepart)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactdes)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactdesig)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactfax)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxContactDepart)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelContactDepart)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxContactDesig)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelContactDesig)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxWorkFax)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactfax)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBox2)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactteloffice)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBox1)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.RichTextBoxNewcontactadd)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxWorkTel1)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelWorkTel1)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxCompanyEmail)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.RichTextBoxCompanyAddr)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelLabelNewcontactcompanyadd)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactcompany)
-        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxNewcontactemail2)
+        Me.GroupBoxNewcontactinfo.Controls.Add(Me.TextBoxCompany)
         Me.GroupBoxNewcontactinfo.Controls.Add(Me.LabelNewcontactemailoffice)
         Me.GroupBoxNewcontactinfo.Location = New System.Drawing.Point(6, 7)
         Me.GroupBoxNewcontactinfo.Name = "GroupBoxNewcontactinfo"
@@ -534,134 +539,12 @@ Partial Class FormNewcontact
         Me.GroupBoxNewcontactinfo.TabIndex = 0
         Me.GroupBoxNewcontactinfo.TabStop = False
         '
-        'LabelNewcontactemailoffice
+        'TextBoxSkype
         '
-        Me.LabelNewcontactemailoffice.AutoSize = True
-        Me.LabelNewcontactemailoffice.Location = New System.Drawing.Point(41, 115)
-        Me.LabelNewcontactemailoffice.Name = "LabelNewcontactemailoffice"
-        Me.LabelNewcontactemailoffice.Size = New System.Drawing.Size(77, 13)
-        Me.LabelNewcontactemailoffice.TabIndex = 13
-        Me.LabelNewcontactemailoffice.Text = "Office e-mail  : "
-        '
-        'TextBoxNewcontactemail2
-        '
-        Me.TextBoxNewcontactemail2.Location = New System.Drawing.Point(118, 23)
-        Me.TextBoxNewcontactemail2.Name = "TextBoxNewcontactemail2"
-        Me.TextBoxNewcontactemail2.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactemail2.TabIndex = 13
-        '
-        'LabelNewcontactcompany
-        '
-        Me.LabelNewcontactcompany.AutoSize = True
-        Me.LabelNewcontactcompany.Location = New System.Drawing.Point(58, 23)
-        Me.LabelNewcontactcompany.Name = "LabelNewcontactcompany"
-        Me.LabelNewcontactcompany.Size = New System.Drawing.Size(60, 13)
-        Me.LabelNewcontactcompany.TabIndex = 14
-        Me.LabelNewcontactcompany.Text = "Company : "
-        '
-        'LabelLabelNewcontactcompanyadd
-        '
-        Me.LabelLabelNewcontactcompanyadd.AutoSize = True
-        Me.LabelLabelNewcontactcompanyadd.Location = New System.Drawing.Point(14, 52)
-        Me.LabelLabelNewcontactcompanyadd.Name = "LabelLabelNewcontactcompanyadd"
-        Me.LabelLabelNewcontactcompanyadd.Size = New System.Drawing.Size(104, 13)
-        Me.LabelLabelNewcontactcompanyadd.TabIndex = 16
-        Me.LabelLabelNewcontactcompanyadd.Text = "Company  Address : "
-        '
-        'RichTextBoxNewcontactadd
-        '
-        Me.RichTextBoxNewcontactadd.Location = New System.Drawing.Point(118, 52)
-        Me.RichTextBoxNewcontactadd.Name = "RichTextBoxNewcontactadd"
-        Me.RichTextBoxNewcontactadd.Size = New System.Drawing.Size(246, 52)
-        Me.RichTextBoxNewcontactadd.TabIndex = 17
-        Me.RichTextBoxNewcontactadd.Text = ""
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(118, 112)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(246, 20)
-        Me.TextBox1.TabIndex = 18
-        '
-        'LabelNewcontactteloffice
-        '
-        Me.LabelNewcontactteloffice.AutoSize = True
-        Me.LabelNewcontactteloffice.Location = New System.Drawing.Point(54, 147)
-        Me.LabelNewcontactteloffice.Name = "LabelNewcontactteloffice"
-        Me.LabelNewcontactteloffice.Size = New System.Drawing.Size(63, 13)
-        Me.LabelNewcontactteloffice.TabIndex = 19
-        Me.LabelNewcontactteloffice.Text = "Work Tel  : "
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(117, 145)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(246, 20)
-        Me.TextBox2.TabIndex = 20
-        '
-        'LabelNewcontactfax
-        '
-        Me.LabelNewcontactfax.AutoSize = True
-        Me.LabelNewcontactfax.Location = New System.Drawing.Point(412, 23)
-        Me.LabelNewcontactfax.Name = "LabelNewcontactfax"
-        Me.LabelNewcontactfax.Size = New System.Drawing.Size(62, 13)
-        Me.LabelNewcontactfax.TabIndex = 21
-        Me.LabelNewcontactfax.Text = "Work Fax : "
-        '
-        'TextBoxNewcontactfax
-        '
-        Me.TextBoxNewcontactfax.Location = New System.Drawing.Point(480, 20)
-        Me.TextBoxNewcontactfax.Name = "TextBoxNewcontactfax"
-        Me.TextBoxNewcontactfax.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactfax.TabIndex = 22
-        '
-        'LabelNewcontactdesig
-        '
-        Me.LabelNewcontactdesig.AutoSize = True
-        Me.LabelNewcontactdesig.Location = New System.Drawing.Point(402, 52)
-        Me.LabelNewcontactdesig.Name = "LabelNewcontactdesig"
-        Me.LabelNewcontactdesig.Size = New System.Drawing.Size(72, 13)
-        Me.LabelNewcontactdesig.TabIndex = 23
-        Me.LabelNewcontactdesig.Text = "Designation : "
-        '
-        'TextBoxNewcontactdes
-        '
-        Me.TextBoxNewcontactdes.Location = New System.Drawing.Point(480, 50)
-        Me.TextBoxNewcontactdes.Name = "TextBoxNewcontactdes"
-        Me.TextBoxNewcontactdes.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactdes.TabIndex = 24
-        '
-        'LabelNewcontactdepart
-        '
-        Me.LabelNewcontactdepart.AutoSize = True
-        Me.LabelNewcontactdepart.Location = New System.Drawing.Point(403, 81)
-        Me.LabelNewcontactdepart.Name = "LabelNewcontactdepart"
-        Me.LabelNewcontactdepart.Size = New System.Drawing.Size(71, 13)
-        Me.LabelNewcontactdepart.TabIndex = 25
-        Me.LabelNewcontactdepart.Text = "Department : "
-        '
-        'TextBoxNewcontactdepart
-        '
-        Me.TextBoxNewcontactdepart.Location = New System.Drawing.Point(480, 78)
-        Me.TextBoxNewcontactdepart.Name = "TextBoxNewcontactdepart"
-        Me.TextBoxNewcontactdepart.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactdepart.TabIndex = 26
-        '
-        'LabelNewcontactweb
-        '
-        Me.LabelNewcontactweb.AutoSize = True
-        Me.LabelNewcontactweb.Location = New System.Drawing.Point(435, 115)
-        Me.LabelNewcontactweb.Name = "LabelNewcontactweb"
-        Me.LabelNewcontactweb.Size = New System.Drawing.Size(39, 13)
-        Me.LabelNewcontactweb.TabIndex = 27
-        Me.LabelNewcontactweb.Text = "Web : "
-        '
-        'TextBoxNewcontactweb
-        '
-        Me.TextBoxNewcontactweb.Location = New System.Drawing.Point(480, 112)
-        Me.TextBoxNewcontactweb.Name = "TextBoxNewcontactweb"
-        Me.TextBoxNewcontactweb.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactweb.TabIndex = 28
+        Me.TextBoxSkype.Location = New System.Drawing.Point(480, 144)
+        Me.TextBoxSkype.Name = "TextBoxSkype"
+        Me.TextBoxSkype.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxSkype.TabIndex = 30
         '
         'LabelNewcontactskype
         '
@@ -672,23 +555,403 @@ Partial Class FormNewcontact
         Me.LabelNewcontactskype.TabIndex = 29
         Me.LabelNewcontactskype.Text = "Skype : "
         '
-        'TextBoxNewcontactskype
+        'TextBoxCompanyWeb
         '
-        Me.TextBoxNewcontactskype.Location = New System.Drawing.Point(480, 144)
-        Me.TextBoxNewcontactskype.Name = "TextBoxNewcontactskype"
-        Me.TextBoxNewcontactskype.Size = New System.Drawing.Size(246, 20)
-        Me.TextBoxNewcontactskype.TabIndex = 30
+        Me.TextBoxCompanyWeb.Location = New System.Drawing.Point(480, 112)
+        Me.TextBoxCompanyWeb.Name = "TextBoxCompanyWeb"
+        Me.TextBoxCompanyWeb.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxCompanyWeb.TabIndex = 28
+        '
+        'LabelNewcontactweb
+        '
+        Me.LabelNewcontactweb.AutoSize = True
+        Me.LabelNewcontactweb.Location = New System.Drawing.Point(435, 115)
+        Me.LabelNewcontactweb.Name = "LabelNewcontactweb"
+        Me.LabelNewcontactweb.Size = New System.Drawing.Size(39, 13)
+        Me.LabelNewcontactweb.TabIndex = 27
+        Me.LabelNewcontactweb.Text = "Web : "
+        '
+        'TextBoxContactDepart
+        '
+        Me.TextBoxContactDepart.Location = New System.Drawing.Point(480, 78)
+        Me.TextBoxContactDepart.Name = "TextBoxContactDepart"
+        Me.TextBoxContactDepart.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxContactDepart.TabIndex = 26
+        '
+        'LabelContactDepart
+        '
+        Me.LabelContactDepart.AutoSize = True
+        Me.LabelContactDepart.Location = New System.Drawing.Point(403, 81)
+        Me.LabelContactDepart.Name = "LabelContactDepart"
+        Me.LabelContactDepart.Size = New System.Drawing.Size(71, 13)
+        Me.LabelContactDepart.TabIndex = 25
+        Me.LabelContactDepart.Text = "Department : "
+        '
+        'TextBoxContactDesig
+        '
+        Me.TextBoxContactDesig.Location = New System.Drawing.Point(480, 50)
+        Me.TextBoxContactDesig.Name = "TextBoxContactDesig"
+        Me.TextBoxContactDesig.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxContactDesig.TabIndex = 24
+        '
+        'LabelContactDesig
+        '
+        Me.LabelContactDesig.AutoSize = True
+        Me.LabelContactDesig.Location = New System.Drawing.Point(402, 52)
+        Me.LabelContactDesig.Name = "LabelContactDesig"
+        Me.LabelContactDesig.Size = New System.Drawing.Size(72, 13)
+        Me.LabelContactDesig.TabIndex = 23
+        Me.LabelContactDesig.Text = "Designation : "
+        '
+        'TextBoxWorkFax
+        '
+        Me.TextBoxWorkFax.Location = New System.Drawing.Point(480, 20)
+        Me.TextBoxWorkFax.Name = "TextBoxWorkFax"
+        Me.TextBoxWorkFax.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxWorkFax.TabIndex = 22
+        '
+        'LabelNewcontactfax
+        '
+        Me.LabelNewcontactfax.AutoSize = True
+        Me.LabelNewcontactfax.Location = New System.Drawing.Point(412, 23)
+        Me.LabelNewcontactfax.Name = "LabelNewcontactfax"
+        Me.LabelNewcontactfax.Size = New System.Drawing.Size(62, 13)
+        Me.LabelNewcontactfax.TabIndex = 21
+        Me.LabelNewcontactfax.Text = "Work Fax : "
+        '
+        'TextBoxWorkTel1
+        '
+        Me.TextBoxWorkTel1.Location = New System.Drawing.Point(117, 145)
+        Me.TextBoxWorkTel1.Name = "TextBoxWorkTel1"
+        Me.TextBoxWorkTel1.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxWorkTel1.TabIndex = 20
+        '
+        'LabelWorkTel1
+        '
+        Me.LabelWorkTel1.AutoSize = True
+        Me.LabelWorkTel1.Location = New System.Drawing.Point(54, 147)
+        Me.LabelWorkTel1.Name = "LabelWorkTel1"
+        Me.LabelWorkTel1.Size = New System.Drawing.Size(63, 13)
+        Me.LabelWorkTel1.TabIndex = 19
+        Me.LabelWorkTel1.Text = "Work Tel  : "
+        '
+        'TextBoxCompanyEmail
+        '
+        Me.TextBoxCompanyEmail.Location = New System.Drawing.Point(118, 112)
+        Me.TextBoxCompanyEmail.Name = "TextBoxCompanyEmail"
+        Me.TextBoxCompanyEmail.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxCompanyEmail.TabIndex = 18
+        '
+        'RichTextBoxCompanyAddr
+        '
+        Me.RichTextBoxCompanyAddr.Location = New System.Drawing.Point(118, 52)
+        Me.RichTextBoxCompanyAddr.Name = "RichTextBoxCompanyAddr"
+        Me.RichTextBoxCompanyAddr.Size = New System.Drawing.Size(246, 52)
+        Me.RichTextBoxCompanyAddr.TabIndex = 17
+        Me.RichTextBoxCompanyAddr.Text = ""
+        '
+        'LabelLabelNewcontactcompanyadd
+        '
+        Me.LabelLabelNewcontactcompanyadd.AutoSize = True
+        Me.LabelLabelNewcontactcompanyadd.Location = New System.Drawing.Point(14, 52)
+        Me.LabelLabelNewcontactcompanyadd.Name = "LabelLabelNewcontactcompanyadd"
+        Me.LabelLabelNewcontactcompanyadd.Size = New System.Drawing.Size(104, 13)
+        Me.LabelLabelNewcontactcompanyadd.TabIndex = 16
+        Me.LabelLabelNewcontactcompanyadd.Text = "Company  Address : "
+        '
+        'LabelNewcontactcompany
+        '
+        Me.LabelNewcontactcompany.AutoSize = True
+        Me.LabelNewcontactcompany.Location = New System.Drawing.Point(58, 23)
+        Me.LabelNewcontactcompany.Name = "LabelNewcontactcompany"
+        Me.LabelNewcontactcompany.Size = New System.Drawing.Size(60, 13)
+        Me.LabelNewcontactcompany.TabIndex = 14
+        Me.LabelNewcontactcompany.Text = "Company : "
+        '
+        'TextBoxCompany
+        '
+        Me.TextBoxCompany.Location = New System.Drawing.Point(118, 23)
+        Me.TextBoxCompany.Name = "TextBoxCompany"
+        Me.TextBoxCompany.Size = New System.Drawing.Size(246, 20)
+        Me.TextBoxCompany.TabIndex = 13
+        '
+        'LabelNewcontactemailoffice
+        '
+        Me.LabelNewcontactemailoffice.AutoSize = True
+        Me.LabelNewcontactemailoffice.Location = New System.Drawing.Point(41, 115)
+        Me.LabelNewcontactemailoffice.Name = "LabelNewcontactemailoffice"
+        Me.LabelNewcontactemailoffice.Size = New System.Drawing.Size(77, 13)
+        Me.LabelNewcontactemailoffice.TabIndex = 13
+        Me.LabelNewcontactemailoffice.Text = "Office e-mail  : "
         '
         'TabControlNewcontact
         '
         Me.TabControlNewcontact.Controls.Add(Me.TabPageNewcontactaddr)
-        Me.TabControlNewcontact.Controls.Add(Me.TabPageNewcontactinfo)
+        Me.TabControlNewcontact.Controls.Add(Me.TabPageWorkInfo)
         Me.TabControlNewcontact.Controls.Add(Me.TabPageNewcontactother)
+        Me.TabControlNewcontact.Controls.Add(Me.TabPageContactInfo)
         Me.TabControlNewcontact.Location = New System.Drawing.Point(5, 100)
         Me.TabControlNewcontact.Name = "TabControlNewcontact"
         Me.TabControlNewcontact.SelectedIndex = 0
         Me.TabControlNewcontact.Size = New System.Drawing.Size(771, 212)
         Me.TabControlNewcontact.TabIndex = 0
+        '
+        'TabPageNewcontactaddr
+        '
+        Me.TabPageNewcontactaddr.Controls.Add(Me.GroupBoxNewcontactAddress1)
+        Me.TabPageNewcontactaddr.Controls.Add(Me.GroupBoxNewcontactAddress2)
+        Me.TabPageNewcontactaddr.Location = New System.Drawing.Point(4, 22)
+        Me.TabPageNewcontactaddr.Name = "TabPageNewcontactaddr"
+        Me.TabPageNewcontactaddr.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageNewcontactaddr.Size = New System.Drawing.Size(763, 186)
+        Me.TabPageNewcontactaddr.TabIndex = 0
+        Me.TabPageNewcontactaddr.Text = "Address"
+        Me.TabPageNewcontactaddr.UseVisualStyleBackColor = True
+        '
+        'GroupBoxNewcontactAddress1
+        '
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBoxAddrCoun)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBoxAddrPro)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBoxAddrDist)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBoxAddrCity)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBoxAddrStreet)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBoxAddrNo)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label1)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label2)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label3)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label4)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label5)
+        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label6)
+        Me.GroupBoxNewcontactAddress1.Location = New System.Drawing.Point(6, 6)
+        Me.GroupBoxNewcontactAddress1.Name = "GroupBoxNewcontactAddress1"
+        Me.GroupBoxNewcontactAddress1.Size = New System.Drawing.Size(372, 174)
+        Me.GroupBoxNewcontactAddress1.TabIndex = 2
+        Me.GroupBoxNewcontactAddress1.TabStop = False
+        Me.GroupBoxNewcontactAddress1.Text = "Contact Address"
+        '
+        'ComboBoxAddrCoun
+        '
+        Me.ComboBoxAddrCoun.FormattingEnabled = True
+        Me.ComboBoxAddrCoun.Location = New System.Drawing.Point(63, 148)
+        Me.ComboBoxAddrCoun.Name = "ComboBoxAddrCoun"
+        Me.ComboBoxAddrCoun.Size = New System.Drawing.Size(200, 21)
+        Me.ComboBoxAddrCoun.TabIndex = 12
+        '
+        'ComboBoxAddrPro
+        '
+        Me.ComboBoxAddrPro.FormattingEnabled = True
+        Me.ComboBoxAddrPro.Items.AddRange(New Object() {"Western Province", "Eastern Province", "Nothern Province", "Southern Province"})
+        Me.ComboBoxAddrPro.Location = New System.Drawing.Point(63, 121)
+        Me.ComboBoxAddrPro.Name = "ComboBoxAddrPro"
+        Me.ComboBoxAddrPro.Size = New System.Drawing.Size(200, 21)
+        Me.ComboBoxAddrPro.TabIndex = 11
+        '
+        'ComboBoxAddrDist
+        '
+        Me.ComboBoxAddrDist.FormattingEnabled = True
+        Me.ComboBoxAddrDist.Items.AddRange(New Object() {"Colombo", "Gampaha", "Kaluthara", "Kandy", "Galle"})
+        Me.ComboBoxAddrDist.Location = New System.Drawing.Point(64, 96)
+        Me.ComboBoxAddrDist.Name = "ComboBoxAddrDist"
+        Me.ComboBoxAddrDist.Size = New System.Drawing.Size(199, 21)
+        Me.ComboBoxAddrDist.TabIndex = 10
+        '
+        'TextBoxAddrCity
+        '
+        Me.TextBoxAddrCity.Location = New System.Drawing.Point(63, 71)
+        Me.TextBoxAddrCity.Name = "TextBoxAddrCity"
+        Me.TextBoxAddrCity.Size = New System.Drawing.Size(245, 20)
+        Me.TextBoxAddrCity.TabIndex = 8
+        '
+        'TextBoxAddrStreet
+        '
+        Me.TextBoxAddrStreet.Location = New System.Drawing.Point(63, 46)
+        Me.TextBoxAddrStreet.Name = "TextBoxAddrStreet"
+        Me.TextBoxAddrStreet.Size = New System.Drawing.Size(245, 20)
+        Me.TextBoxAddrStreet.TabIndex = 7
+        '
+        'TextBoxAddrNo
+        '
+        Me.TextBoxAddrNo.Location = New System.Drawing.Point(63, 21)
+        Me.TextBoxAddrNo.Name = "TextBoxAddrNo"
+        Me.TextBoxAddrNo.Size = New System.Drawing.Size(124, 20)
+        Me.TextBoxAddrNo.TabIndex = 6
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(16, 151)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(49, 13)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Country :"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(10, 122)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(55, 13)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Province :"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(20, 97)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(45, 13)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "District :"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(34, 72)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(30, 13)
+        Me.Label4.TabIndex = 2
+        Me.Label4.Text = "City :"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(22, 46)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(41, 13)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "Street :"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(35, 23)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(30, 13)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "No : "
+        '
+        'GroupBoxNewcontactAddress2
+        '
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBoxShipAddrCoun)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label7)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBoxShipAddrDst)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBoxShipAddrPro)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label8)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label9)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBoxShipAddrCity)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBoxShipAddrNo)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBoxShipAddrStreet)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label10)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label11)
+        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label12)
+        Me.GroupBoxNewcontactAddress2.Location = New System.Drawing.Point(384, 6)
+        Me.GroupBoxNewcontactAddress2.Name = "GroupBoxNewcontactAddress2"
+        Me.GroupBoxNewcontactAddress2.Size = New System.Drawing.Size(372, 174)
+        Me.GroupBoxNewcontactAddress2.TabIndex = 3
+        Me.GroupBoxNewcontactAddress2.TabStop = False
+        Me.GroupBoxNewcontactAddress2.Text = "Shipping Address"
+        '
+        'ComboBoxShipAddrCoun
+        '
+        Me.ComboBoxShipAddrCoun.FormattingEnabled = True
+        Me.ComboBoxShipAddrCoun.Items.AddRange(New Object() {"Sri Lanka", "India", "Pakistan"})
+        Me.ComboBoxShipAddrCoun.Location = New System.Drawing.Point(65, 145)
+        Me.ComboBoxShipAddrCoun.Name = "ComboBoxShipAddrCoun"
+        Me.ComboBoxShipAddrCoun.Size = New System.Drawing.Size(200, 21)
+        Me.ComboBoxShipAddrCoun.TabIndex = 24
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(14, 148)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(49, 13)
+        Me.Label7.TabIndex = 18
+        Me.Label7.Text = "Country :"
+        '
+        'ComboBoxShipAddrDst
+        '
+        Me.ComboBoxShipAddrDst.FormattingEnabled = True
+        Me.ComboBoxShipAddrDst.Items.AddRange(New Object() {"Colombo", "Gampaha", "Kaluthara", "Kandy", "Galle"})
+        Me.ComboBoxShipAddrDst.Location = New System.Drawing.Point(65, 94)
+        Me.ComboBoxShipAddrDst.Name = "ComboBoxShipAddrDst"
+        Me.ComboBoxShipAddrDst.Size = New System.Drawing.Size(199, 21)
+        Me.ComboBoxShipAddrDst.TabIndex = 22
+        '
+        'ComboBoxShipAddrPro
+        '
+        Me.ComboBoxShipAddrPro.FormattingEnabled = True
+        Me.ComboBoxShipAddrPro.Items.AddRange(New Object() {"Western Province", "Eastern Province", "Nothern Province", "Southern Province"})
+        Me.ComboBoxShipAddrPro.Location = New System.Drawing.Point(65, 118)
+        Me.ComboBoxShipAddrPro.Name = "ComboBoxShipAddrPro"
+        Me.ComboBoxShipAddrPro.Size = New System.Drawing.Size(200, 21)
+        Me.ComboBoxShipAddrPro.TabIndex = 23
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(17, 97)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(45, 13)
+        Me.Label8.TabIndex = 16
+        Me.Label8.Text = "District :"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(33, 24)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(30, 13)
+        Me.Label9.TabIndex = 13
+        Me.Label9.Text = "No : "
+        '
+        'TextBoxShipAddrCity
+        '
+        Me.TextBoxShipAddrCity.Location = New System.Drawing.Point(65, 70)
+        Me.TextBoxShipAddrCity.Name = "TextBoxShipAddrCity"
+        Me.TextBoxShipAddrCity.Size = New System.Drawing.Size(245, 20)
+        Me.TextBoxShipAddrCity.TabIndex = 21
+        '
+        'TextBoxShipAddrNo
+        '
+        Me.TextBoxShipAddrNo.Location = New System.Drawing.Point(65, 21)
+        Me.TextBoxShipAddrNo.Name = "TextBoxShipAddrNo"
+        Me.TextBoxShipAddrNo.Size = New System.Drawing.Size(124, 20)
+        Me.TextBoxShipAddrNo.TabIndex = 19
+        '
+        'TextBoxShipAddrStreet
+        '
+        Me.TextBoxShipAddrStreet.Location = New System.Drawing.Point(65, 46)
+        Me.TextBoxShipAddrStreet.Name = "TextBoxShipAddrStreet"
+        Me.TextBoxShipAddrStreet.Size = New System.Drawing.Size(245, 20)
+        Me.TextBoxShipAddrStreet.TabIndex = 20
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(19, 49)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(41, 13)
+        Me.Label10.TabIndex = 14
+        Me.Label10.Text = "Street :"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(31, 72)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(30, 13)
+        Me.Label11.TabIndex = 15
+        Me.Label11.Text = "City :"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(8, 121)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(55, 13)
+        Me.Label12.TabIndex = 17
+        Me.Label12.Text = "Province :"
         '
         'LabelNewcontactAddr2pro
         '
@@ -881,18 +1144,6 @@ Partial Class FormNewcontact
         Me.ComboBoxNewcontactAddr1coun.Size = New System.Drawing.Size(200, 21)
         Me.ComboBoxNewcontactAddr1coun.TabIndex = 12
         '
-        'TabPageNewcontactaddr
-        '
-        Me.TabPageNewcontactaddr.Controls.Add(Me.GroupBoxNewcontactAddress1)
-        Me.TabPageNewcontactaddr.Controls.Add(Me.GroupBoxNewcontactAddress2)
-        Me.TabPageNewcontactaddr.Location = New System.Drawing.Point(4, 22)
-        Me.TabPageNewcontactaddr.Name = "TabPageNewcontactaddr"
-        Me.TabPageNewcontactaddr.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPageNewcontactaddr.Size = New System.Drawing.Size(763, 186)
-        Me.TabPageNewcontactaddr.TabIndex = 0
-        Me.TabPageNewcontactaddr.Text = "Address"
-        Me.TabPageNewcontactaddr.UseVisualStyleBackColor = True
-        '
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
@@ -961,267 +1212,117 @@ Partial Class FormNewcontact
         Me.LabelNewcontactNote.Size = New System.Drawing.Size(72, 13)
         Me.LabelNewcontactNote.TabIndex = 2
         '
-        'GroupBoxNewcontactAddress1
+        'TabPageContactInfo
         '
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBox1)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBox2)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.ComboBox3)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBox3)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBox4)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.TextBox5)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label1)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label2)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label3)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label4)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label5)
-        Me.GroupBoxNewcontactAddress1.Controls.Add(Me.Label6)
-        Me.GroupBoxNewcontactAddress1.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBoxNewcontactAddress1.Name = "GroupBoxNewcontactAddress1"
-        Me.GroupBoxNewcontactAddress1.Size = New System.Drawing.Size(372, 174)
-        Me.GroupBoxNewcontactAddress1.TabIndex = 2
-        Me.GroupBoxNewcontactAddress1.TabStop = False
-        Me.GroupBoxNewcontactAddress1.Text = "Contact Address"
+        Me.TabPageContactInfo.Controls.Add(Me.TextBoxContactResPhone)
+        Me.TabPageContactInfo.Controls.Add(Me.Label13)
+        Me.TabPageContactInfo.Controls.Add(Me.TextBoxContactMobile2)
+        Me.TabPageContactInfo.Controls.Add(Me.LabelMobile2)
+        Me.TabPageContactInfo.Controls.Add(Me.TextBoxContactEmail2)
+        Me.TabPageContactInfo.Controls.Add(Me.LabelEmail2)
+        Me.TabPageContactInfo.Location = New System.Drawing.Point(4, 22)
+        Me.TabPageContactInfo.Name = "TabPageContactInfo"
+        Me.TabPageContactInfo.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageContactInfo.Size = New System.Drawing.Size(763, 186)
+        Me.TabPageContactInfo.TabIndex = 3
+        Me.TabPageContactInfo.Text = "Contact Info"
+        Me.TabPageContactInfo.UseVisualStyleBackColor = True
         '
-        'ComboBox1
+        'LabelEmail2
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(63, 148)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox1.TabIndex = 12
+        Me.LabelEmail2.AutoSize = True
+        Me.LabelEmail2.Location = New System.Drawing.Point(6, 37)
+        Me.LabelEmail2.Name = "LabelEmail2"
+        Me.LabelEmail2.Size = New System.Drawing.Size(54, 13)
+        Me.LabelEmail2.TabIndex = 15
+        Me.LabelEmail2.Text = "E-Mail 2 : "
         '
-        'ComboBox2
+        'TextBoxContactEmail2
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"Western Province", "Eastern Province", "Nothern Province", "Southern Province"})
-        Me.ComboBox2.Location = New System.Drawing.Point(63, 121)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox2.TabIndex = 11
+        Me.TextBoxContactEmail2.Location = New System.Drawing.Point(66, 37)
+        Me.TextBoxContactEmail2.Name = "TextBoxContactEmail2"
+        Me.TextBoxContactEmail2.Size = New System.Drawing.Size(171, 20)
+        Me.TextBoxContactEmail2.TabIndex = 16
         '
-        'ComboBox3
+        'LabelMobile2
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"Colombo", "Gampaha", "Kaluthara", "Kandy", "Galle"})
-        Me.ComboBox3.Location = New System.Drawing.Point(64, 96)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(199, 21)
-        Me.ComboBox3.TabIndex = 10
+        Me.LabelMobile2.AutoSize = True
+        Me.LabelMobile2.Location = New System.Drawing.Point(6, 69)
+        Me.LabelMobile2.Name = "LabelMobile2"
+        Me.LabelMobile2.Size = New System.Drawing.Size(56, 13)
+        Me.LabelMobile2.TabIndex = 17
+        Me.LabelMobile2.Text = "Mobile 2 : "
         '
-        'TextBox3
+        'TextBoxContactMobile2
         '
-        Me.TextBox3.Location = New System.Drawing.Point(63, 71)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(245, 20)
-        Me.TextBox3.TabIndex = 8
+        Me.TextBoxContactMobile2.Location = New System.Drawing.Point(66, 69)
+        Me.TextBoxContactMobile2.Name = "TextBoxContactMobile2"
+        Me.TextBoxContactMobile2.Size = New System.Drawing.Size(171, 20)
+        Me.TextBoxContactMobile2.TabIndex = 18
         '
-        'TextBox4
+        'Label13
         '
-        Me.TextBox4.Location = New System.Drawing.Point(63, 46)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(245, 20)
-        Me.TextBox4.TabIndex = 7
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(6, 112)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(69, 13)
+        Me.Label13.TabIndex = 19
+        Me.Label13.Text = "Res Phone : "
         '
-        'TextBox5
+        'TextBoxContactResPhone
         '
-        Me.TextBox5.Location = New System.Drawing.Point(63, 21)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox5.TabIndex = 6
+        Me.TextBoxContactResPhone.Location = New System.Drawing.Point(81, 109)
+        Me.TextBoxContactResPhone.Name = "TextBoxContactResPhone"
+        Me.TextBoxContactResPhone.Size = New System.Drawing.Size(156, 20)
+        Me.TextBoxContactResPhone.TabIndex = 20
         '
-        'Label1
+        'LabelGtalk
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(16, 151)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(49, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Country :"
+        Me.LabelGtalk.AutoSize = True
+        Me.LabelGtalk.Location = New System.Drawing.Point(227, 86)
+        Me.LabelGtalk.Name = "LabelGtalk"
+        Me.LabelGtalk.Size = New System.Drawing.Size(45, 13)
+        Me.LabelGtalk.TabIndex = 14
+        Me.LabelGtalk.Text = "GTalk : "
         '
-        'Label2
+        'TextBoxGtalk
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(10, 122)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 13)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Province :"
+        Me.TextBoxGtalk.Location = New System.Drawing.Point(278, 82)
+        Me.TextBoxGtalk.Name = "TextBoxGtalk"
+        Me.TextBoxGtalk.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxGtalk.TabIndex = 15
         '
-        'Label3
+        'LabelContactType
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(20, 97)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(45, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "District :"
+        Me.LabelContactType.AutoSize = True
+        Me.LabelContactType.Location = New System.Drawing.Point(516, 93)
+        Me.LabelContactType.Name = "LabelContactType"
+        Me.LabelContactType.Size = New System.Drawing.Size(77, 13)
+        Me.LabelContactType.TabIndex = 3
+        Me.LabelContactType.Text = "Contact Type :"
         '
-        'Label4
+        'ComboBoxContactType
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(34, 72)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(30, 13)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "City :"
+        Me.ComboBoxContactType.FormattingEnabled = True
+        Me.ComboBoxContactType.Location = New System.Drawing.Point(609, 91)
+        Me.ComboBoxContactType.Name = "ComboBoxContactType"
+        Me.ComboBoxContactType.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBoxContactType.TabIndex = 21
         '
-        'Label5
+        'TextBoxContactBirthday
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(22, 46)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(41, 13)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Street :"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(35, 23)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(30, 13)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "No : "
-        '
-        'GroupBoxNewcontactAddress2
-        '
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBox4)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label7)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBox5)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.ComboBox6)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label8)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label9)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBox6)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBox7)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.TextBox8)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label10)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label11)
-        Me.GroupBoxNewcontactAddress2.Controls.Add(Me.Label12)
-        Me.GroupBoxNewcontactAddress2.Location = New System.Drawing.Point(384, 6)
-        Me.GroupBoxNewcontactAddress2.Name = "GroupBoxNewcontactAddress2"
-        Me.GroupBoxNewcontactAddress2.Size = New System.Drawing.Size(372, 174)
-        Me.GroupBoxNewcontactAddress2.TabIndex = 3
-        Me.GroupBoxNewcontactAddress2.TabStop = False
-        Me.GroupBoxNewcontactAddress2.Text = "Shipping Address"
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"Sri Lanka", "India", "Pakistan"})
-        Me.ComboBox4.Location = New System.Drawing.Point(65, 145)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox4.TabIndex = 24
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(14, 148)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(49, 13)
-        Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Country :"
-        '
-        'ComboBox5
-        '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Items.AddRange(New Object() {"Colombo", "Gampaha", "Kaluthara", "Kandy", "Galle"})
-        Me.ComboBox5.Location = New System.Drawing.Point(65, 94)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(199, 21)
-        Me.ComboBox5.TabIndex = 22
-        '
-        'ComboBox6
-        '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Items.AddRange(New Object() {"Western Province", "Eastern Province", "Nothern Province", "Southern Province"})
-        Me.ComboBox6.Location = New System.Drawing.Point(65, 118)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(200, 21)
-        Me.ComboBox6.TabIndex = 23
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(17, 97)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(45, 13)
-        Me.Label8.TabIndex = 16
-        Me.Label8.Text = "District :"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(33, 24)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 13)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "No : "
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(65, 70)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(245, 20)
-        Me.TextBox6.TabIndex = 21
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(65, 21)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(124, 20)
-        Me.TextBox7.TabIndex = 19
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(65, 46)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(245, 20)
-        Me.TextBox8.TabIndex = 20
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(19, 49)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(41, 13)
-        Me.Label10.TabIndex = 14
-        Me.Label10.Text = "Street :"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(31, 72)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(30, 13)
-        Me.Label11.TabIndex = 15
-        Me.Label11.Text = "City :"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(8, 121)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(55, 13)
-        Me.Label12.TabIndex = 17
-        Me.Label12.Text = "Province :"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(519, 91)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(59, 17)
-        Me.CheckBox1.TabIndex = 3
-        Me.CheckBox1.Text = "Private"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.TextBoxContactBirthday.Location = New System.Drawing.Point(79, 29)
+        Me.TextBoxContactBirthday.Name = "TextBoxContactBirthday"
+        Me.TextBoxContactBirthday.Size = New System.Drawing.Size(100, 20)
+        Me.TextBoxContactBirthday.TabIndex = 16
         '
         'FormNewcontact
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 361)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.ComboBoxContactType)
+        Me.Controls.Add(Me.LabelContactType)
         Me.Controls.Add(Me.GroupBoxNewcontctbuttons)
         Me.Controls.Add(Me.GroupBoxNewcontact)
         Me.Controls.Add(Me.TabControlNewcontact)
@@ -1238,37 +1339,39 @@ Partial Class FormNewcontact
         Me.TabPageNewcontactother.ResumeLayout(False)
         Me.GroupBoxNewcontactother.ResumeLayout(False)
         Me.GroupBoxNewcontactother.PerformLayout()
-        Me.TabPageNewcontactinfo.ResumeLayout(False)
+        Me.TabPageWorkInfo.ResumeLayout(False)
         Me.GroupBoxNewcontactinfo.ResumeLayout(False)
         Me.GroupBoxNewcontactinfo.PerformLayout()
         Me.TabControlNewcontact.ResumeLayout(False)
         Me.TabPageNewcontactaddr.ResumeLayout(False)
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBoxNewcontactAddress1.ResumeLayout(False)
         Me.GroupBoxNewcontactAddress1.PerformLayout()
         Me.GroupBoxNewcontactAddress2.ResumeLayout(False)
         Me.GroupBoxNewcontactAddress2.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPageContactInfo.ResumeLayout(False)
+        Me.TabPageContactInfo.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents GroupBoxNewcontact As System.Windows.Forms.GroupBox
     Friend WithEvents LabelNewcontactTitle As System.Windows.Forms.Label
-    Friend WithEvents ComboBoxNewcontactTitle As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBoxNewcontactNumber As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBoxNewcontactLastname As System.Windows.Forms.TextBox
+    Friend WithEvents ComboBoxTitle As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxContactNumber As System.Windows.Forms.ComboBox
+    Friend WithEvents TextBoxLastname As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactLastname As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactFirstname As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxFirstname As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewContactFirstname As System.Windows.Forms.Label
     Friend WithEvents LabelNewcontactNumber As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontacttelno As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactNo As System.Windows.Forms.TextBox
     Friend WithEvents GroupBoxNewcontctbuttons As System.Windows.Forms.GroupBox
-    Friend WithEvents ButtonNewcontactclose As System.Windows.Forms.Button
-    Friend WithEvents ButtonNewcontactnext As System.Windows.Forms.Button
-    Friend WithEvents ButtonNewcontactSave As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactClose As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactNext As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactSave As System.Windows.Forms.Button
     Friend WithEvents TextBoxNewcontactCID As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactCID As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactemail As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactEmail1 As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactemail As System.Windows.Forms.Label
     Friend WithEvents PictureBoxNewcontact As System.Windows.Forms.PictureBox
     Friend WithEvents LabelNewcontactcopywrite As System.Windows.Forms.Label
@@ -1277,38 +1380,37 @@ Partial Class FormNewcontact
     Friend WithEvents TabPageNewcontactother As System.Windows.Forms.TabPage
     Friend WithEvents GroupBoxNewcontactother As System.Windows.Forms.GroupBox
     Friend WithEvents LabelNewcontactbg As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactbg As System.Windows.Forms.TextBox
-    Friend WithEvents TextBoxNewcontactdl As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactBloodGroup As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactDlno As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactdl As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactnic As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactNic As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactnic As System.Windows.Forms.Label
-    Friend WithEvents ComboBoxNewcontactms As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxContactMaritialStatus As System.Windows.Forms.ComboBox
     Friend WithEvents LabelNewcontactms As System.Windows.Forms.Label
-    Friend WithEvents ComboBoxNewcontactsex As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxGender As System.Windows.Forms.ComboBox
     Friend WithEvents LabelNewcontactsex As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactnational As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactNationality As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactnational As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactbirthday As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactbirthday As System.Windows.Forms.Label
-    Friend WithEvents TabPageNewcontactinfo As System.Windows.Forms.TabPage
+    Friend WithEvents TabPageWorkInfo As System.Windows.Forms.TabPage
     Friend WithEvents GroupBoxNewcontactinfo As System.Windows.Forms.GroupBox
-    Friend WithEvents TextBoxNewcontactskype As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxSkype As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactskype As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactweb As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxCompanyWeb As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactweb As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactdepart As System.Windows.Forms.TextBox
-    Friend WithEvents LabelNewcontactdepart As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactdes As System.Windows.Forms.TextBox
-    Friend WithEvents LabelNewcontactdesig As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactfax As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxContactDepart As System.Windows.Forms.TextBox
+    Friend WithEvents LabelContactDepart As System.Windows.Forms.Label
+    Friend WithEvents TextBoxContactDesig As System.Windows.Forms.TextBox
+    Friend WithEvents LabelContactDesig As System.Windows.Forms.Label
+    Friend WithEvents TextBoxWorkFax As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactfax As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents LabelNewcontactteloffice As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents RichTextBoxNewcontactadd As System.Windows.Forms.RichTextBox
+    Friend WithEvents TextBoxWorkTel1 As System.Windows.Forms.TextBox
+    Friend WithEvents LabelWorkTel1 As System.Windows.Forms.Label
+    Friend WithEvents TextBoxCompanyEmail As System.Windows.Forms.TextBox
+    Friend WithEvents RichTextBoxCompanyAddr As System.Windows.Forms.RichTextBox
     Friend WithEvents LabelLabelNewcontactcompanyadd As System.Windows.Forms.Label
     Friend WithEvents LabelNewcontactcompany As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNewcontactemail2 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxCompany As System.Windows.Forms.TextBox
     Friend WithEvents LabelNewcontactemailoffice As System.Windows.Forms.Label
     Friend WithEvents TabControlNewcontact As System.Windows.Forms.TabControl
     Friend WithEvents TabPageNewcontactaddr As System.Windows.Forms.TabPage
@@ -1346,12 +1448,12 @@ Partial Class FormNewcontact
     Friend WithEvents ComboBoxNewcontactNote As System.Windows.Forms.ComboBox
     Friend WithEvents LabelNewcontactNote As System.Windows.Forms.Label
     Friend WithEvents GroupBoxNewcontactAddress1 As System.Windows.Forms.GroupBox
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents ComboBoxAddrCoun As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxAddrPro As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxAddrDist As System.Windows.Forms.ComboBox
+    Friend WithEvents TextBoxAddrCity As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxAddrStreet As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxAddrNo As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
@@ -1359,17 +1461,28 @@ Partial Class FormNewcontact
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents GroupBoxNewcontactAddress2 As System.Windows.Forms.GroupBox
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxShipAddrCoun As System.Windows.Forms.ComboBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox5 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxShipAddrDst As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBoxShipAddrPro As System.Windows.Forms.ComboBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxShipAddrCity As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxShipAddrNo As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxShipAddrStreet As System.Windows.Forms.TextBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
-    Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents TabPageContactInfo As System.Windows.Forms.TabPage
+    Friend WithEvents TextBoxContactEmail2 As System.Windows.Forms.TextBox
+    Friend WithEvents LabelEmail2 As System.Windows.Forms.Label
+    Friend WithEvents TextBoxContactMobile2 As System.Windows.Forms.TextBox
+    Friend WithEvents LabelMobile2 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents TextBoxContactResPhone As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxGtalk As System.Windows.Forms.TextBox
+    Friend WithEvents LabelGtalk As System.Windows.Forms.Label
+    Friend WithEvents LabelContactType As System.Windows.Forms.Label
+    Friend WithEvents ComboBoxContactType As System.Windows.Forms.ComboBox
+    Friend WithEvents TextBoxContactBirthday As System.Windows.Forms.TextBox
 End Class

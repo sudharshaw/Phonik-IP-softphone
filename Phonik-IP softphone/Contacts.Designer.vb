@@ -22,48 +22,43 @@ Partial Class FormContact
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ButtonContactsNew = New System.Windows.Forms.Button()
+        Me.ButtonContactsClose = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.ButtonContactSelect = New System.Windows.Forms.Button()
+        Me.ButtonContactsSerach = New System.Windows.Forms.Button()
         Me.TextConSearch = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ComboConSearch = New System.Windows.Forms.ComboBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.DataGridViewContacts = New System.Windows.Forms.DataGridView()
-        Me.No = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FirstName = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.LastName = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Mobile = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Email = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Account = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Assignto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ButtonSerach = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridViewContacts, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'ButtonContactsNew
         '
-        Me.Button1.Location = New System.Drawing.Point(616, 18)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "&New"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonContactsNew.Location = New System.Drawing.Point(616, 18)
+        Me.ButtonContactsNew.Name = "ButtonContactsNew"
+        Me.ButtonContactsNew.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactsNew.TabIndex = 1
+        Me.ButtonContactsNew.Text = "&New"
+        Me.ButtonContactsNew.UseVisualStyleBackColor = True
         '
-        'Button2
+        'ButtonContactsClose
         '
-        Me.Button2.Location = New System.Drawing.Point(695, 18)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "&Close"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ButtonContactsClose.Location = New System.Drawing.Point(695, 18)
+        Me.ButtonContactsClose.Name = "ButtonContactsClose"
+        Me.ButtonContactsClose.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactsClose.TabIndex = 2
+        Me.ButtonContactsClose.Text = "&Close"
+        Me.ButtonContactsClose.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.ButtonSerach)
+        Me.GroupBox1.Controls.Add(Me.ButtonContactSelect)
+        Me.GroupBox1.Controls.Add(Me.ButtonContactsSerach)
         Me.GroupBox1.Controls.Add(Me.TextConSearch)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.ComboConSearch)
@@ -72,6 +67,25 @@ Partial Class FormContact
         Me.GroupBox1.Size = New System.Drawing.Size(770, 40)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
+        '
+        'ButtonContactSelect
+        '
+        Me.ButtonContactSelect.Location = New System.Drawing.Point(528, 12)
+        Me.ButtonContactSelect.Name = "ButtonContactSelect"
+        Me.ButtonContactSelect.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactSelect.TabIndex = 5
+        Me.ButtonContactSelect.Text = "&Select"
+        Me.ButtonContactSelect.UseVisualStyleBackColor = True
+        Me.ButtonContactSelect.Visible = False
+        '
+        'ButtonContactsSerach
+        '
+        Me.ButtonContactsSerach.Location = New System.Drawing.Point(362, 14)
+        Me.ButtonContactsSerach.Name = "ButtonContactsSerach"
+        Me.ButtonContactsSerach.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonContactsSerach.TabIndex = 3
+        Me.ButtonContactsSerach.Text = "&Search"
+        Me.ButtonContactsSerach.UseVisualStyleBackColor = True
         '
         'TextConSearch
         '
@@ -111,58 +125,10 @@ Partial Class FormContact
         'DataGridViewContacts
         '
         Me.DataGridViewContacts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewContacts.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.No, Me.FirstName, Me.LastName, Me.Mobile, Me.Email, Me.Account, Me.Assignto})
         Me.DataGridViewContacts.Location = New System.Drawing.Point(9, 19)
         Me.DataGridViewContacts.Name = "DataGridViewContacts"
         Me.DataGridViewContacts.Size = New System.Drawing.Size(754, 272)
         Me.DataGridViewContacts.TabIndex = 1
-        '
-        'No
-        '
-        Me.No.HeaderText = "No"
-        Me.No.Name = "No"
-        Me.No.Width = 50
-        '
-        'FirstName
-        '
-        Me.FirstName.HeaderText = "First Name"
-        Me.FirstName.Name = "FirstName"
-        '
-        'LastName
-        '
-        Me.LastName.HeaderText = "Last Name"
-        Me.LastName.Name = "LastName"
-        '
-        'Mobile
-        '
-        Me.Mobile.HeaderText = "Mobile"
-        Me.Mobile.Name = "Mobile"
-        '
-        'Email
-        '
-        Me.Email.HeaderText = "Email"
-        Me.Email.Name = "Email"
-        Me.Email.Width = 135
-        '
-        'Account
-        '
-        Me.Account.HeaderText = "Account"
-        Me.Account.Name = "Account"
-        Me.Account.Width = 125
-        '
-        'Assignto
-        '
-        Me.Assignto.HeaderText = "Assign to"
-        Me.Assignto.Name = "Assignto"
-        '
-        'ButtonSerach
-        '
-        Me.ButtonSerach.Location = New System.Drawing.Point(362, 14)
-        Me.ButtonSerach.Name = "ButtonSerach"
-        Me.ButtonSerach.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonSerach.TabIndex = 3
-        Me.ButtonSerach.Text = "&Search"
-        Me.ButtonSerach.UseVisualStyleBackColor = True
         '
         'FormContact
         '
@@ -170,8 +136,8 @@ Partial Class FormContact
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(784, 361)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ButtonContactsClose)
+        Me.Controls.Add(Me.ButtonContactsNew)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
@@ -185,20 +151,14 @@ Partial Class FormContact
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactsNew As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactsClose As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents ComboConSearch As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents TextConSearch As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents DataGridViewContacts As System.Windows.Forms.DataGridView
-    Friend WithEvents No As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents FirstName As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents LastName As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Mobile As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Email As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Account As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents Assignto As System.Windows.Forms.DataGridViewTextBoxColumn
-    Friend WithEvents ButtonSerach As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactsSerach As System.Windows.Forms.Button
+    Friend WithEvents ButtonContactSelect As System.Windows.Forms.Button
 End Class

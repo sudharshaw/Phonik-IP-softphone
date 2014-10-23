@@ -35,9 +35,9 @@ Partial Class FormDialpad
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
+        Me.ButtonDialcontact = New System.Windows.Forms.Button()
+        Me.ButtonDial = New System.Windows.Forms.Button()
+        Me.ButtonDialClose = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -157,32 +157,32 @@ Partial Class FormDialpad
         Me.TextBox1.Size = New System.Drawing.Size(211, 20)
         Me.TextBox1.TabIndex = 12
         '
-        'Button13
+        'ButtonDialcontact
         '
-        Me.Button13.Location = New System.Drawing.Point(148, 42)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(75, 23)
-        Me.Button13.TabIndex = 13
-        Me.Button13.Text = "Contact"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.ButtonDialcontact.Location = New System.Drawing.Point(148, 42)
+        Me.ButtonDialcontact.Name = "ButtonDialcontact"
+        Me.ButtonDialcontact.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDialcontact.TabIndex = 13
+        Me.ButtonDialcontact.Text = "CONTACT"
+        Me.ButtonDialcontact.UseVisualStyleBackColor = True
         '
-        'Button14
+        'ButtonDial
         '
-        Me.Button14.Location = New System.Drawing.Point(148, 74)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(75, 23)
-        Me.Button14.TabIndex = 14
-        Me.Button14.Text = "Dial"
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.ButtonDial.Location = New System.Drawing.Point(148, 74)
+        Me.ButtonDial.Name = "ButtonDial"
+        Me.ButtonDial.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDial.TabIndex = 14
+        Me.ButtonDial.Text = "DIAL"
+        Me.ButtonDial.UseVisualStyleBackColor = True
         '
-        'Button15
+        'ButtonDialClose
         '
-        Me.Button15.Location = New System.Drawing.Point(148, 107)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 23)
-        Me.Button15.TabIndex = 15
-        Me.Button15.Text = "End"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.ButtonDialClose.Location = New System.Drawing.Point(148, 107)
+        Me.ButtonDialClose.Name = "ButtonDialClose"
+        Me.ButtonDialClose.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonDialClose.TabIndex = 15
+        Me.ButtonDialClose.Text = "&CLOSE"
+        Me.ButtonDialClose.UseVisualStyleBackColor = True
         '
         'Button16
         '
@@ -209,9 +209,9 @@ Partial Class FormDialpad
         Me.ClientSize = New System.Drawing.Size(234, 211)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.ButtonDialClose)
+        Me.Controls.Add(Me.ButtonDial)
+        Me.Controls.Add(Me.ButtonDialcontact)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
@@ -244,9 +244,9 @@ Partial Class FormDialpad
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents Button13 As System.Windows.Forms.Button
-    Friend WithEvents Button14 As System.Windows.Forms.Button
-    Friend WithEvents Button15 As System.Windows.Forms.Button
+    Friend WithEvents ButtonDialcontact As System.Windows.Forms.Button
+    Friend WithEvents ButtonDial As System.Windows.Forms.Button
+    Friend WithEvents ButtonDialClose As System.Windows.Forms.Button
     Friend WithEvents Button16 As System.Windows.Forms.Button
     Friend WithEvents Button17 As System.Windows.Forms.Button
 End Class
